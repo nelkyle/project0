@@ -1,0 +1,56 @@
+/* Requirements TODO:
+Links to all pages
+One List (pet personality stuff)
+One Table (age/weight/other stuff)
+5 CSS selectors (.class, #id, element element (inside selector), element > element (child selector),
+
+Other stuff:
+
+
+
+
+ */
+
+
+ 
+ 
+$Aloycolor: blue;
+$Brutuscolor: blue;
+$Chloecolor: blue;
+$Daveycolor: blue;
+
+%cardstyles {
+	border: 1px solid black;
+	padding: 20px;
+	margin: 20px;
+	
+}
+
+#Aloy {
+	color:$Aloycolor;	
+	p {color: $Aloycolor;}
+		@extend %cardstyles;
+	
+}
+.card {
+	@extend %cardstyles;
+}
+.card-title {
+	font-weight: bold;
+
+}
+
+.card-header > h2 {
+	font-weight: bold;
+	text-align: center;
+}
+
+				
+.test {
+	font-size: 50px;
+}
+@media only screen and (max-width: 600px) {
+			#nav strong {
+				font-size: 14px;
+			}
+}

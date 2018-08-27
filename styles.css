@@ -1,9 +1,45 @@
-h1 {
-	color:blue;
-	text-align: center;
+/* Requirements TODO:
+Links to all pages
+One List (pet personality stuff)
+One Table (age/weight/other stuff)
+5 CSS selectors (.class, #id, element element (inside selector), element > element (child selector),
+
+Other stuff:
+
+
+
+
+ */
+.card, #Aloy {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
 }
 
-p {
-	color: red;
-	
+#Aloy {
+  color: blue;
 }
+#Aloy p {
+  color: blue;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-header > h2 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.test {
+  font-size: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  #nav strong {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
