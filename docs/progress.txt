@@ -1,0 +1,46 @@
+Requirements:
+
+Done - Your website must contain at least four different .html pages
+Done - it should be possible to get from any page on your website to any other page by following one or more hyperlinks.
+Done - Your website must include at least one list (ordered or unordered)
+Done - at least one table
+Done - and at least one image.
+Done - Your website must have at least one stylesheet file.
+
+Done - Your stylesheet(s) must use at least five different CSS properties (border, padding, margin, color, font-weight)
+Done - at least five different types of CSS selectors 5 CSS selectors 
+	.class
+	#id
+	element element (inside selector)
+	element > element (child selector)
+	element, element (multiple selector)
+
+Done - You must use the #id selector at least once
+Done - the .class selector at least once.
+
+Done - Your stylesheet(s) must include at least one mobile-responsive @media query, such that something about the styling changes for smaller screens.
+Done - You must use Bootstrap 4 on your website
+Done - taking advantage of at least one Bootstrap component
+Done - and using at least two Bootstrap columns for layout purposes using Bootstrap’s grid model
+Done - Your stylesheets must use at least one SCSS variable
+Done -  at least one example of SCSS nesting
+Done -  and at least one use of SCSS inheritance.
+In README.md, include a short writeup describing your project, what’s contained in each file, and (optionally) any other additional information the staff should know about your project.
+
+
+Webpage design work:
+
+Index.html
+
+change supporting text from default
+fix capitilization on names
+add link to cs50 course
+link to requirements page
+
+aloy.html
+align text
+
+copy for brutus,chloe, davey
+update text and image links
+
+

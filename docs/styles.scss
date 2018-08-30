@@ -14,10 +14,10 @@ Other stuff:
 
  
  
-$Aloycolor: blue;
-$Brutuscolor: blue;
-$Chloecolor: blue;
-$Daveycolor: blue;
+$aloycolor: blue;
+$brutuscolor: #b381b3;
+$chloecolor: #aa8f00;
+$daveycolor: #00aa55;
 
 %cardstyles {
 	border: 1px solid black;
@@ -26,12 +26,25 @@ $Daveycolor: blue;
 	
 }
 
-#Aloy {
-	color:$Aloycolor;	
-	p {color: $Aloycolor;}
+#aloy {
+	color:$aloycolor;	
+	p {color: $aloycolor;}
 		@extend %cardstyles;
 	
 }
+
+#brutus {
+	color:$brutuscolor;
+	}
+
+#chloe {
+	color:$chloecolor;
+	}
+	
+#davey {
+	color:$daveycolor;
+	}
+	
 .card {
 	@extend %cardstyles;
 }

@@ -10,17 +10,29 @@ Other stuff:
 
 
  */
-.card, #Aloy {
+.card, #aloy {
   border: 1px solid black;
   padding: 20px;
   margin: 20px;
 }
 
-#Aloy {
+#aloy {
   color: blue;
 }
-#Aloy p {
+#aloy p {
   color: blue;
+}
+
+#brutus {
+  color: #b381b3;
+}
+
+#chloe {
+  color: #aa8f00;
+}
+
+#davey {
+  color: #00aa55;
 }
 
 .card-title {
